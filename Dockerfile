@@ -6,6 +6,8 @@ COPY package*.json ./
 
 RUN yarn install --production
 
+RUN yarn add tailwindcss
+
 COPY . .
 
 RUN yarn build
