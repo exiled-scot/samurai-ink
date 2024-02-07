@@ -1,4 +1,11 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Samurai Ink Studio
+
+This is a demo website designed using Figma and built using Builder.io tools.
+
+| Web View | Figma |
+|---------|---------|
+| ![Web View](./screenshots/screenshot1.png) | ![Figa View](./screenshots/screenshot2.png) |
+
 
 ## Getting Started
 
