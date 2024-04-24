@@ -4,14 +4,12 @@ WORKDIR /app
 
 COPY package*.json ./
 
-RUN yarn install --production
+RUN yarn install
 
 RUN yarn add tailwindcss
 
-COPY . .
-
-RUN yarn build
+COPY . . 
 
 ENV PORT=3000
 
-CMD ["yarn", "start"]
+CMD ["yarn", "dev"]

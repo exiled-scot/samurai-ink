@@ -27,10 +27,10 @@ function Services(props) {
                 <br />
               </p>
               <div className="flex w-[467px] max-w-full justify-between gap-5 ml-7 mt-14 self-start max-md:flex-wrap max-md:mt-10">
-                <a href="#" className="justify-center text-white text-base leading-6 whitespace-nowrap bg-black grow px-5 py-5 border-[5px] border-solid border-white">
+                <a href="#" className="box-link h-32 flex justify-center items-center px-5 py-5 border-[5px] border-solid border-white">
                   SERVICES
                 </a>
-                <a href="#" className="justify-center text-white text-base leading-6 whitespace-nowrap bg-black grow items-stretch mt-1.5 px-5 py-5 border-[5px] border-solid border-white max-md:pr-0.5">
+                <a href="#" className="box-link h-32 flex justify-center items-center px-5 py-5 border-[5px] border-solid border-white">
                   OUR TEAM
                 </a>
               </div>
